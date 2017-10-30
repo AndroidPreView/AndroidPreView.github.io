@@ -11,7 +11,7 @@
   <meta name="description" content="专注 Android 开发的技术博客">
 <meta property="og:type" content="website">
 <meta property="og:title" content="MrWu Blog">
-<meta property="og:url" content="https://mrjiaming.github.io/page/2/index.html">
+<meta property="og:url" content="http://onedian.club/page/2/index.html">
 <meta property="og:site_name" content="MrWu Blog">
 <meta property="og:description" content="专注 Android 开发的技术博客">
 <meta property="og:locale" content="Java">
@@ -120,152 +120,6 @@
       <div class="outer">
         <section id="main" class="body-wrap">
   
-    <article id="post-android图片圆角怎么简单高效实现？" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/08/07/android图片圆角怎么简单高效实现？/"  target="_blank"  >Android圆角怎么简单高效实现</a>
-    </h1>
-  
-
-          
-              <span class="header-cate">
-                <i class="fa fa-map-marker"></i>
-                  
-                  <a href="/categories/Android/">Android</a>
-                  
-              </span>
-          
-      </header>
-    
-    <div class="article-entry " itemprop="articleBody">
-      
-        <div class="article-img">
-            <a href="/2017/08/07/android图片圆角怎么简单高效实现？/"  target="_blank" >
-                
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="Android圆角怎么简单高效实现" title="Android圆角怎么简单高效实现">
-                
-            </a>
-        </div>
-        <div class="article-feed">
-            <p>
-                https://www.zhihu.com/question/47496609
-
-            </p>
-        </div>
-      
-    </div>
-    <footer class="article-footer">
-        
-        <ul class="article-footer-menu">
-            
-                <li><i class="fa fa-calendar"></i>2017-08-07</li>
-            
-            
-  <li class="article-footer-tags">
-    <i class="fa fa-tags"></i>
-      
-    <a href="/tags/Andorid/" class="color3">Andorid</a>
-      
-  </li>
-
-        </ul>
-        
-            <a href="/2017/08/07/android图片圆角怎么简单高效实现？/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
-        
-    </footer>
-  </div>
-</article>
-
-
-  
-    <article id="post-使用GitHub-Pages来Hexo一个独立博客" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/07/20/使用GitHub-Pages来Hexo一个独立博客/"  target="_blank"  >使用Github page来搭建博客</a>
-    </h1>
-  
-
-          
-              <span class="header-cate">
-                <i class="fa fa-map-marker"></i>
-                  
-                  <a href="/categories/Git/">Git</a>
-                  
-              </span>
-          
-      </header>
-    
-    <div class="article-entry " itemprop="articleBody">
-      
-        <div class="article-img">
-            <a href="/2017/07/20/使用GitHub-Pages来Hexo一个独立博客/"  target="_blank" >
-                
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="使用Github page来搭建博客" title="使用Github page来搭建博客">
-                
-            </a>
-        </div>
-        <div class="article-feed">
-            <p>
-                安装Hexo安装Node.js
-安装Hexo1$ npm install -g hexo
-初始化Hexo在本地新建一个文件夹，名称自拟，在这里先把文件夹取名为hexo，进入该文件夹，执行Hexo的init命令来初始化：1$ hexo init
-稍等片刻，便会自动在hexo文件夹生成网站所需要的文件。
-下载模块在hexo/目录下，执行如下命令，下载生成网站所需要的插件模块。1$ npm install
-生成静态页面在hexo/目录下，执行如下命令，生成静态页面至hexo/public/目录。1$ hexo generate
-本地调试在hexo/目录下，执行如下命令，启动本地服务，进行博客预览调试：打开浏览器，输入http://localhost:4000就可以看到网站的效果。1$ hexo server
-生成文章在hexo/目录下，执行如下命令，生成文章。
-1$ hexo new [layout] &quot;名称&quot;
-其中layout是可选参数，默认值为post。Hexo默认提供三种layout选择，具体可到hexo/scaffolds目录下查看文件，分别是draft、page与post。可以自定义其内容或者新建一种layout。
-
-参数post的作用为新建一篇文章。指定名称的md文件存在于hexo/source/_post目录下，当我们使用命令hexo generate来生成静态页面的时候，该目录下的文章会生成到public文件夹里面，当我们更新数据到网站上时，该文章就会显示在网页上。
-
-参数draft的作用为新建一篇文章草稿。指定名称的md文件存在于hexo/source/_drafts目录里面，当我们生成静态页面的时候，该目录下的文章不会生成到public文件夹里面，即不会同步到我们网站上。当你认为可以发布该文章的时候，应把该文章的md文件移到hexo/source/_post目录下。
-
-参数page的作用为新建一个网站页面。该命令会在hexo/source目录下新建一个指定名称的文件夹，该文件夹下有一个index.md文件。
-
-
-编辑文章生成文章后，打开相应的md文件，就可以开始编辑了。
-文章开头格式如下：
-123456789title: postName #文章的名称，可以任意修改，不会出现在URL中date: 2017-04-25 15:30:16 #文章的时间，一般不改，当然也可以任意修改categories: #文章的分类目录，可以为空tags: #文章的标签，多标签请用格式[tag1,tag2,tag3]，可以为空description: #本页的描述，可以为空---&lt;!--这里开始使用markdown格式输入你的正文。--&gt;......
-需要注意的是，上面所有:后面必须要有一个空格，不然会报错的。
-如果需要文章摘要功能，只需在正文中添加如下代码：
-123以上是摘要&lt;!--more--&gt;以下是余下全文
-            </p>
-        </div>
-      
-    </div>
-    <footer class="article-footer">
-        
-        <ul class="article-footer-menu">
-            
-                <li><i class="fa fa-calendar"></i>2017-07-20</li>
-            
-            
-  <li class="article-footer-tags">
-    <i class="fa fa-tags"></i>
-      
-    <a href="/tags/git/" class="color4">git</a>
-      
-  </li>
-
-        </ul>
-        
-            <a href="/2017/07/20/使用GitHub-Pages来Hexo一个独立博客/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
-        
-    </footer>
-  </div>
-</article>
-
-
-  
     <article id="post-Android-样式的开发：shape" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -292,7 +146,7 @@
         <div class="article-img">
             <a href="/2017/07/08/Android-样式的开发：shape/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="Android样式开发" title="Android样式开发">
+                <img src="http://onedian.club//images/android.jpg" alt="Android样式开发" title="Android样式开发">
                 
             </a>
         </div>
@@ -353,7 +207,7 @@
         <div class="article-img">
             <a href="/2017/07/08/Android-图片放置哪个文件夹合适/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="Android图片放置在哪个文件夹合适" title="Android图片放置在哪个文件夹合适">
+                <img src="http://onedian.club//images/android.jpg" alt="Android图片放置在哪个文件夹合适" title="Android图片放置在哪个文件夹合适">
                 
             </a>
         </div>
@@ -395,6 +249,72 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
 
 
   
+    <article id="post-使用Docker搭建gitlab" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/28/使用Docker搭建gitlab/"  target="_blank"  >使用Docker搭建gitlab</a>
+    </h1>
+  
+
+          
+              <span class="header-cate">
+                <i class="fa fa-map-marker"></i>
+                  
+                  <a href="/categories/Android/">Android</a>
+                  
+              </span>
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a href="/2017/06/28/使用Docker搭建gitlab/"  target="_blank" >
+                
+                <img src="http://onedian.club//images/android.jpg" alt="使用Docker搭建gitlab" title="使用Docker搭建gitlab">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                安装Docker在bash中输入命令安装最新的docker
+1234sudo apt-get purge docker.iocurl -s https://get.docker.io/ubuntu/ | sudo shsudo apt-get updatesudo apt-get install lxc-docker
+下载镜像
+以下脚本会下载gitlab,MySQL,Re...
+            </p>
+        </div>
+      
+    </div>
+    <footer class="article-footer">
+        
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2017-06-28</li>
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/其他/" class="color3">其他</a>
+      
+    <a href="/tags/gitlab/" class="color2">gitlab</a>
+      
+  </li>
+
+        </ul>
+        
+            <a href="/2017/06/28/使用Docker搭建gitlab/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
     <article id="post-解决配置方法数超过-64K-的应用" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -421,7 +341,7 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
         <div class="article-img">
             <a href="/2017/06/28/解决配置方法数超过-64K-的应用/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="解决配置方法数超过64k的应用" title="解决配置方法数超过64k的应用">
+                <img src="http://onedian.club//images/android.jpg" alt="解决配置方法数超过64k的应用" title="解决配置方法数超过64k的应用">
                 
             </a>
         </div>
@@ -483,7 +403,7 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
         <div class="article-img">
             <a href="/2017/06/28/使用Git的感想/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="使用Git的感想" title="使用Git的感想">
+                <img src="http://onedian.club//images/android.jpg" alt="使用Git的感想" title="使用Git的感想">
                 
             </a>
         </div>
@@ -519,72 +439,6 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
 
 
   
-    <article id="post-使用Docker搭建gitlab" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/06/28/使用Docker搭建gitlab/"  target="_blank"  >使用Docker搭建gitlab</a>
-    </h1>
-  
-
-          
-              <span class="header-cate">
-                <i class="fa fa-map-marker"></i>
-                  
-                  <a href="/categories/Android/">Android</a>
-                  
-              </span>
-          
-      </header>
-    
-    <div class="article-entry " itemprop="articleBody">
-      
-        <div class="article-img">
-            <a href="/2017/06/28/使用Docker搭建gitlab/"  target="_blank" >
-                
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="使用Docker搭建gitlab" title="使用Docker搭建gitlab">
-                
-            </a>
-        </div>
-        <div class="article-feed">
-            <p>
-                安装Docker在bash中输入命令安装最新的docker
-1234sudo apt-get purge docker.iocurl -s https://get.docker.io/ubuntu/ | sudo shsudo apt-get updatesudo apt-get install lxc-docker
-下载镜像
-以下脚本会下载gitlab,MySQL,Re...
-            </p>
-        </div>
-      
-    </div>
-    <footer class="article-footer">
-        
-        <ul class="article-footer-menu">
-            
-                <li><i class="fa fa-calendar"></i>2017-06-28</li>
-            
-            
-  <li class="article-footer-tags">
-    <i class="fa fa-tags"></i>
-      
-    <a href="/tags/其他/" class="color3">其他</a>
-      
-    <a href="/tags/gitlab/" class="color2">gitlab</a>
-      
-  </li>
-
-        </ul>
-        
-            <a href="/2017/06/28/使用Docker搭建gitlab/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
-        
-    </footer>
-  </div>
-</article>
-
-
-  
     <article id="post-Java双亲委派模型" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -611,7 +465,7 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
         <div class="article-img">
             <a href="/2017/06/24/Java双亲委派模型/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="Java双亲委派模型" title="Java双亲委派模型">
+                <img src="http://onedian.club//images/android.jpg" alt="Java双亲委派模型" title="Java双亲委派模型">
                 
             </a>
         </div>
@@ -676,7 +530,7 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
         <div class="article-img">
             <a href="/2017/06/23/数据库-索引/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="数据库-索引" title="数据库-索引">
+                <img src="http://onedian.club//images/android.jpg" alt="数据库-索引" title="数据库-索引">
                 
             </a>
         </div>
@@ -742,7 +596,7 @@ logo等权重较大的图片可针对hdpi，xhdpi做两套图
         <div class="article-img">
             <a href="/2017/06/18/Android-开发技巧二/"  target="_blank" >
                 
-                <img src="https://mrjiaming.github.io//images/android.jpg" alt="Android开发技巧二" title="Android开发技巧二">
+                <img src="http://onedian.club//images/android.jpg" alt="Android开发技巧二" title="Android开发技巧二">
                 
             </a>
         </div>
@@ -771,6 +625,129 @@ View类的post和postDelayed方法稍微有点经验的安卓开发人...
         </ul>
         
             <a href="/2017/06/18/Android-开发技巧二/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
+    <article id="post-Fragment为什么需要空的构造方法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/13/Fragment为什么需要空的构造方法/"  target="_blank"  >Android Fragment为什么需要空的构造方法</a>
+    </h1>
+  
+
+          
+              <span class="header-cate">
+                <i class="fa fa-map-marker"></i>
+                  
+                  <a href="/categories/Android/">Android</a>
+                  
+              </span>
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a href="/2017/06/13/Fragment为什么需要空的构造方法/"  target="_blank" >
+                
+                <img src="http://onedian.club//images/android.jpg" alt="Android Fragment为什么需要空的构造方法" title="Android Fragment为什么需要空的构造方法">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                每一个Fragment必须有一个空的构造方法，这样当Activity恢复状态时Fragment能够被实例化。强烈建议当我们继承Fragment类时，不要添加带有参数的构造方法，因为当Fragment被重新实例化时，这些构造方法不会被调用。如果需要给Fragment传递参数，可以调用setArguments(Bundle)方法，然后在Fragment中调用getArgume...
+            </p>
+        </div>
+      
+    </div>
+    <footer class="article-footer">
+        
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2017-06-13</li>
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/Andorid/" class="color3">Andorid</a>
+      
+  </li>
+
+        </ul>
+        
+            <a href="/2017/06/13/Fragment为什么需要空的构造方法/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
+    <article id="post-相机开发过程遇到的坑" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/06/07/相机开发过程遇到的坑/"  target="_blank"  >相机开发过程遇到的坑</a>
+    </h1>
+  
+
+          
+              <span class="header-cate">
+                <i class="fa fa-map-marker"></i>
+                  
+                  <a href="/categories/Android/">Android</a>
+                  
+              </span>
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a href="/2017/06/07/相机开发过程遇到的坑/"  target="_blank" >
+                
+                <img src="http://onedian.club//images/android.jpg" alt="相机开发过程遇到的坑" title="相机开发过程遇到的坑">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                总结得很好的一篇文章：https://zhuanlan.zhihu.com/p/20559606
+
+            </p>
+        </div>
+      
+    </div>
+    <footer class="article-footer">
+        
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2017-06-07</li>
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/Andorid/" class="color3">Andorid</a>
+      
+  </li>
+
+        </ul>
+        
+            <a href="/2017/06/07/相机开发过程遇到的坑/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
         
     </footer>
   </div>
@@ -812,7 +789,7 @@ View类的post和postDelayed方法稍微有点经验的安卓开发人...
 <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
 <script>
   var mihoConfig = {
-      root: "https://mrjiaming.github.io",
+      root: "http://onedian.club",
       animate: true,
       isHome: true,
       share: true
@@ -835,10 +812,10 @@ View类的post和postDelayed方法稍微有点经验的安卓开发人...
 <div class="sidebar-menu-box" id="sidebar-menu-box">
     <div class="sidebar-menu-box-container">
         <div id="sidebar-menu-box-categories">
-            <a class="category-link" href="/categories/Android/">Android</a><a class="category-link" href="/categories/Git/">Git</a><a class="category-link" href="/categories/Java/">Java</a><a class="category-link" href="/categories/Shadowsocks/">Shadowsocks</a><a class="category-link" href="/categories/nginx/">nginx</a><a class="category-link" href="/categories/其他/">其他</a><a class="category-link" href="/categories/工具/">工具</a><a class="category-link" href="/categories/数据库/">数据库</a>
+            <a class="category-link" href="/categories/Android/">Android</a><a class="category-link" href="/categories/Git/">Git</a><a class="category-link" href="/categories/Java/">Java</a><a class="category-link" href="/categories/Shadowsocks/">Shadowsocks</a><a class="category-link" href="/categories/nginx/">nginx</a><a class="category-link" href="/categories/工具/">工具</a><a class="category-link" href="/categories/数据库/">数据库</a>
         </div>
         <div id="sidebar-menu-box-tags">
-            <a href="/tags/Andorid/" style="font-size: 20px;">Andorid</a> <a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Http/" style="font-size: 10px;">Http</a> <a href="/tags/Java/" style="font-size: 16.67px;">Java</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Shadowsocks/" style="font-size: 10px;">Shadowsocks</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/gitlab/" style="font-size: 10px;">gitlab</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/其他/" style="font-size: 13.33px;">其他</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/数据库/" style="font-size: 10px;">数据库</a>
+            <a href="/tags/Andorid/" style="font-size: 20px;">Andorid</a> <a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Http/" style="font-size: 10px;">Http</a> <a href="/tags/Java/" style="font-size: 16.67px;">Java</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Shadowsocks/" style="font-size: 10px;">Shadowsocks</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/gitlab/" style="font-size: 10px;">gitlab</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/其他/" style="font-size: 10px;">其他</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/数据库/" style="font-size: 10px;">数据库</a>
         </div>
     </div>
     <a href="javascript:;" class="sidebar-menu-box-close">&times;</a>
@@ -871,7 +848,7 @@ View类的post和postDelayed方法稍微有点经验的安卓开发人...
     <div class="mobile-header-tag-container">
         <span class="title">Tags</span>
         <div id="mobile-header-container-tags">
-            <a href="/tags/Andorid/" style="font-size: 20px;">Andorid</a> <a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Http/" style="font-size: 10px;">Http</a> <a href="/tags/Java/" style="font-size: 16.67px;">Java</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Shadowsocks/" style="font-size: 10px;">Shadowsocks</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/gitlab/" style="font-size: 10px;">gitlab</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/其他/" style="font-size: 13.33px;">其他</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/数据库/" style="font-size: 10px;">数据库</a>
+            <a href="/tags/Andorid/" style="font-size: 20px;">Andorid</a> <a href="/tags/Android/" style="font-size: 10px;">Android</a> <a href="/tags/Git/" style="font-size: 10px;">Git</a> <a href="/tags/Http/" style="font-size: 10px;">Http</a> <a href="/tags/Java/" style="font-size: 16.67px;">Java</a> <a href="/tags/Linux/" style="font-size: 10px;">Linux</a> <a href="/tags/Shadowsocks/" style="font-size: 10px;">Shadowsocks</a> <a href="/tags/git/" style="font-size: 13.33px;">git</a> <a href="/tags/gitlab/" style="font-size: 10px;">gitlab</a> <a href="/tags/nginx/" style="font-size: 10px;">nginx</a> <a href="/tags/其他/" style="font-size: 10px;">其他</a> <a href="/tags/工具/" style="font-size: 10px;">工具</a> <a href="/tags/数据库/" style="font-size: 10px;">数据库</a>
         </div>
     </div>
 </div>
