@@ -120,14 +120,14 @@
       <div class="outer">
         <section id="main" class="body-wrap">
   
-    <article id="post-DigitalOcean--搭建Shadowsocks" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Android-Studio-管理gradle配置以及第三方App_key" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/28/DigitalOcean--搭建Shadowsocks/"  target="_blank"  >Digitalocean 搭建ss的方法</a>
+      <a class="article-title" href="/2016/10/28/Android-Studio-管理gradle配置以及第三方App_key/"  target="_blank"  >Android studio 管理gradle配置</a>
     </h1>
   
 
@@ -135,7 +135,7 @@
               <span class="header-cate">
                 <i class="fa fa-map-marker"></i>
                   
-                  <a href="/categories/Shadowsocks/">Shadowsocks</a>
+                  <a href="/categories/Android/">Android</a>
                   
               </span>
           
@@ -144,17 +144,16 @@
     <div class="article-entry " itemprop="articleBody">
       
         <div class="article-img">
-            <a href="/2016/10/28/DigitalOcean--搭建Shadowsocks/"  target="_blank" >
+            <a href="/2016/10/28/Android-Studio-管理gradle配置以及第三方App_key/"  target="_blank" >
                 
-                <img src="http://onedian.club//images/android.jpg" alt="Digitalocean 搭建ss的方法" title="Digitalocean 搭建ss的方法">
+                <img src="http://onedian.club//images/android.jpg" alt="Android studio 管理gradle配置" title="Android studio 管理gradle配置">
                 
             </a>
         </div>
         <div class="article-feed">
             <p>
-                安装Shadowsocks和Supervisor安装命令
-12345# yum -y install epel-release# yum update# yum -y install python-setuptools supervisor# easy_install pip# pip install shadowsocks
-配置Shadowsocks执行一下命令1# v...
+                第三方API的KEY的管理Android开发，基本都会用到第三方SDK，例如百度地图、支付宝支付等。通常第三方的KEY都是保存在AndroidManifest中：
+1234&lt;!-- 百度地图的KEY--&gt;&lt;meta-data  android:name="com.baidu.lbsapi.API_KEY" android:value="百度地图注册的KE...
             </p>
         </div>
       
@@ -169,13 +168,13 @@
   <li class="article-footer-tags">
     <i class="fa fa-tags"></i>
       
-    <a href="/tags/Shadowsocks/" class="color2">Shadowsocks</a>
+    <a href="/tags/Andorid/" class="color3">Andorid</a>
       
   </li>
 
         </ul>
         
-            <a href="/2016/10/28/DigitalOcean--搭建Shadowsocks/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
+            <a href="/2016/10/28/Android-Studio-管理gradle配置以及第三方App_key/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
         
     </footer>
   </div>
@@ -566,6 +565,71 @@ android:process应用实现多进程需要依赖于andr...
 
 
   
+    <article id="post-Java泛型的好处" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2016/07/05/Java泛型的好处/"  target="_blank"  >Java泛型的好处</a>
+    </h1>
+  
+
+          
+              <span class="header-cate">
+                <i class="fa fa-map-marker"></i>
+                  
+                  <a href="/categories/Android/">Android</a>
+                  
+              </span>
+          
+      </header>
+    
+    <div class="article-entry " itemprop="articleBody">
+      
+        <div class="article-img">
+            <a href="/2016/07/05/Java泛型的好处/"  target="_blank" >
+                
+                <img src="http://onedian.club//images/android.jpg" alt="Java泛型的好处" title="Java泛型的好处">
+                
+            </a>
+        </div>
+        <div class="article-feed">
+            <p>
+                1，类型安全。 泛型的主要目标是提高 Java 程序的类型安全。通过知道使用泛型定义的变量的类型限制，编译器可以在一个高得多的程度上验证类型假设。没有泛型，这些假设就只存在于程序员的头脑中（或者如果幸运的话，还存在于代码注释中）。
+2，消除强制类型转换。 泛型的一个附带好处是，消除源代码中的许多强制类型转换。这使得代码更加可读，并且减少了出错机会。
+3，潜在的性能收益。 ...
+            </p>
+        </div>
+      
+    </div>
+    <footer class="article-footer">
+        
+        <ul class="article-footer-menu">
+            
+                <li><i class="fa fa-calendar"></i>2016-07-05</li>
+            
+            
+  <li class="article-footer-tags">
+    <i class="fa fa-tags"></i>
+      
+    <a href="/tags/Andorid/" class="color3">Andorid</a>
+      
+    <a href="/tags/Java/" class="color5">Java</a>
+      
+  </li>
+
+        </ul>
+        
+            <a href="/2016/07/05/Java泛型的好处/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
+        
+    </footer>
+  </div>
+</article>
+
+
+  
     <article id="post-px-与-dp换算公式？" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -627,71 +691,6 @@ dp是虚拟像素，在不同的像素密度的设备上会自动适配，比如
         </ul>
         
             <a href="/2016/07/05/px-与-dp换算公式？/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
-        
-    </footer>
-  </div>
-</article>
-
-
-  
-    <article id="post-Java泛型的好处" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/07/05/Java泛型的好处/"  target="_blank"  >Java泛型的好处</a>
-    </h1>
-  
-
-          
-              <span class="header-cate">
-                <i class="fa fa-map-marker"></i>
-                  
-                  <a href="/categories/Android/">Android</a>
-                  
-              </span>
-          
-      </header>
-    
-    <div class="article-entry " itemprop="articleBody">
-      
-        <div class="article-img">
-            <a href="/2016/07/05/Java泛型的好处/"  target="_blank" >
-                
-                <img src="http://onedian.club//images/android.jpg" alt="Java泛型的好处" title="Java泛型的好处">
-                
-            </a>
-        </div>
-        <div class="article-feed">
-            <p>
-                1，类型安全。 泛型的主要目标是提高 Java 程序的类型安全。通过知道使用泛型定义的变量的类型限制，编译器可以在一个高得多的程度上验证类型假设。没有泛型，这些假设就只存在于程序员的头脑中（或者如果幸运的话，还存在于代码注释中）。
-2，消除强制类型转换。 泛型的一个附带好处是，消除源代码中的许多强制类型转换。这使得代码更加可读，并且减少了出错机会。
-3，潜在的性能收益。 ...
-            </p>
-        </div>
-      
-    </div>
-    <footer class="article-footer">
-        
-        <ul class="article-footer-menu">
-            
-                <li><i class="fa fa-calendar"></i>2016-07-05</li>
-            
-            
-  <li class="article-footer-tags">
-    <i class="fa fa-tags"></i>
-      
-    <a href="/tags/Andorid/" class="color3">Andorid</a>
-      
-    <a href="/tags/Java/" class="color5">Java</a>
-      
-  </li>
-
-        </ul>
-        
-            <a href="/2016/07/05/Java泛型的好处/#more" class="article-more-link"  target="_blank" >more&gt;&gt;</a>
         
     </footer>
   </div>
